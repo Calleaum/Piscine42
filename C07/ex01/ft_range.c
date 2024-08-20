@@ -1,49 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/20 12:18:08 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/20 15:52:32 by calleaum         ###   ########.fr       */
+/*   Created: 2024/08/20 14:23:06 by calleaum          #+#    #+#             */
+/*   Updated: 2024/08/20 14:52:36 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-char	*ft_strdup(char *src)
+int	*ft_range(int min, int max)
 {
-	int		length;
-	int		i;
-	char	*dest;
+	int	i;
+	int	*res;
 
-	length = 0;
-	while (src[length])
-		length++;
-	dest = (char *) malloc(sizeof(char));
-	if (dest == NULL )
+	if (min >= max)	
+		return (0);
+	res = (int *) malloc(sizeof(int));
+	if (res == NULL)
 		return (NULL);
 	i = 0;
-	while (src[i])
+	while (min < max)
 	{
-		dest[i] = src[i];
+		res[i] = min;
+		min++;
 		i++;
 	}
-	dest[i] = '\0';
-	return(dest);
-	free(dest);
+	return (res);
 }
-// #include <stdio.h>
-// #include <string.h>
-// int main(int argc, char **argv)
-// {
-// 	char *str;
-// 	char *dest;
-// 	if(argc == 2)
-// 	{
-// 	str = argv[1];
-// 	dest = ft_strdup(str);
-// 	printf("%s", dest);
-// 	}
-// }
+#include <stdio.h>
+int	main()
+{
+	int min = 5;
+	int max = 5;
+	int i = 0;
+	int size = 
+	int *tab = ft_range(min, max);
+	printf("%d", tab[i]);
+	
+}

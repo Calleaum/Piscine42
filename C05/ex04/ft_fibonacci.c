@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 16:37:15 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/18 11:25:36 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/25 20:09:25 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_fibonacci(int index)
 /* #include <stdio.h>
 int main()
 {
-    printf("%d, ", ft_fibonacci(-1));
+    printf("%d, ", ft_fibonacci(-50));
     printf("%d, ", ft_fibonacci(0));
     printf("%d, ", ft_fibonacci(1));
     printf("%d, ", ft_fibonacci(2));
@@ -37,5 +37,4 @@ int main()
     printf("%d, ", ft_fibonacci(10));
     printf("%d\n", ft_fibonacci(11));
     printf("%d\n", ft_fibonacci(20));
-
 } */

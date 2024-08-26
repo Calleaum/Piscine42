@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 15:30:29 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/16 10:57:30 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/20 12:49:20 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-/* int	main(void)
-{
-	ft_putstr("coucou");
-} */
+// int	main(void)
+// {
+// 	ft_putstr("coucou");
+// }

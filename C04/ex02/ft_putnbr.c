@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 09:10:44 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/15 12:13:07 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/24 23:24:43 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,16 +34,16 @@ void	ft_putnbr(int nb)
 	if (nb >= 0 && nb <= 9)
 		ft_putchar(nb + '0');
 }
-// #include <stdio.h>
-// int main()
-// {
-// ft_putnbr(-2147483648);
-// printf("\n");
-// ft_putnbr(2147483647);
-// printf("\n");
-// ft_putnbr(-314);
-// printf("\n");
-// ft_putnbr(2147);
-// printf("\n");
-// ft_putnbr(7);
-// }
+#include <stdio.h>
+int main()
+{
+ft_putnbr(-2147483648);
+printf("\n");
+ft_putnbr(2147483647);
+printf("\n");
+ft_putnbr(-314);
+printf("\n");
+ft_putnbr(2147);
+printf("\n");
+ft_putnbr(7);
+}

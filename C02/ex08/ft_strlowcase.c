@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 08:21:23 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/15 15:59:53 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/19 10:08:40 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,12 @@ char	*ft_strlowcase(char *str)
 		}
 		i++;
 	}
-	return (0);
+	return (str);
 }
 // #include <stdio.h>
 // int main()
 // {	
-// 	char a[20] = "Pwet";
+// 	char a[20] = "pwet";
 // 	ft_strlowcase(a);
 // 	printf("%s\n", a);
 // 	return (0);

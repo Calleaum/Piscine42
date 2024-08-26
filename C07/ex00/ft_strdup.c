@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 12:18:08 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/22 10:03:20 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/26 01:15:15 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,6 @@ char	*ft_strdup(char *src)
 #include <string.h>
 int main(int argc, char **argv)
 {
-	if(argc == 2)	
+	if(argc == 2)
 		printf("%s", ft_strdup(argv[1]));
 } */

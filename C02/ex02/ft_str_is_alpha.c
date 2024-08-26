@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 08:21:23 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/15 16:00:38 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/24 22:54:14 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,14 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
-// #include <stdio.h>
-// int main()
-// {
-// 	char c[20] = "fasfasfQDD";
-// 	ft_str_is_alpha(c);
-// 	printf("%d\n", ft_str_is_alpha(c));
+#include <stdio.h>
+int main()
+{
+	char c[20] = "fasfasfQDD";
+	ft_str_is_alpha(c);
+	printf("%d\n", ft_str_is_alpha(c));
 
-// 	char b[20] = "aAadsf156!";
-// 	ft_str_is_alpha(c);
-// 	printf("%d", ft_str_is_alpha(b));
-// }
+	char b[20] = "  ";
+	ft_str_is_alpha(c);
+	printf("%d", ft_str_is_alpha(b));
+}

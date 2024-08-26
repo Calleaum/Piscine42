@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 15:19:59 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/15 12:13:41 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/20 12:49:16 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-/* #include <stdio.h>
-int main()
-{
-    char str[20] = "coucsfdDfsdfou";
-    printf("%d", ft_strlen(str));
-} */
+// #include <stdio.h>
+// int main()
+// {
+//     char str[100] = "couc  sdadsaffklsdhfklshf   ";
+//     printf("%d", ft_strlen(str));
+// }

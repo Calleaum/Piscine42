@@ -1,35 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
+/*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/15 12:45:00 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/25 23:08:02 by calleaum         ###   ########.fr       */
+/*   Created: 2024/08/20 10:59:11 by calleaum          #+#    #+#             */
+/*   Updated: 2024/08/20 11:51:00 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_iterative_factorial(int nb)
+char	*ft_strstr(char *str, char *to_find)
 {
-	int	res;
 	int	i;
+	int	j;
 
-	i = 1;
-	res = 1;
-	if (nb < 0)
-		return (0);
-	if (nb == 0)
-		return (1);
-	while (i <= nb)
+	i = 0;
+	while (str[i])
 	{
-		res = res * i;
+		j = 0;
+		while (to_find[j] == str[i + j])
+		{
+			if (to_find[j + 1] == '\0')
+			{
+				return (str + i);
+			}
+			j++;
+		}
 		i++;
 	}
-	return (res);
+	return (0);
 }
-/* #include <stdio.h>
-int	main()
+
+#include <stdio.h>
+#include <string.h>
+int main()
 {
-	printf("%d", ft_iterative_factorial(0));
-} */
+	char c[30] = "Je test mon programme";
+	char b[30] = "";
+	printf("%s", ft_strstr(c, b));
+}

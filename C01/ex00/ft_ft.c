@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/08 08:31:24 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/12 11:42:30 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/15 12:11:54 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-/* #include <stdio.h>
+#include <stdio.h>
 
 int	main(void)
 {
@@ -24,4 +24,4 @@ int	main(void)
 	ptr = &n;
 	ft_ft(ptr);
 	printf("%d", n);
-} */
+}

@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/21 10:04:21 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/22 10:58:02 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/27 14:02:47 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ int	ft_ultimate_range(int **range, int min, int max)
 		i++;
 	}
 	return (i);
-	free(res);
 }
 
 /* #include <stdio.h>

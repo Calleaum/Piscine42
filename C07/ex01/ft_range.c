@@ -6,7 +6,7 @@
 /*   By: calleaum <calleaum@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 14:23:06 by calleaum          #+#    #+#             */
-/*   Updated: 2024/08/22 10:58:10 by calleaum         ###   ########.fr       */
+/*   Updated: 2024/08/27 11:25:23 by calleaum         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,21 +31,20 @@ int	*ft_range(int min, int max)
 		i++;
 	}
 	return (res);
-	free(res);
 }
 
-/* #include <stdio.h>
-int	main()
-{
-	int min = 5;
-	int max = 10;
-	int size = max - min;
-	int i = 0;
-	int *tab; 
-	tab = ft_range(min, max);
-	while (i < size)
-	{
-		printf("%d ", tab[i]);
-		i++;
-	}
-} */
+// #include <stdio.h>
+// int	main()
+// {
+// 	int min = 5;
+// 	int max = 1000;
+// 	int size = max - min;
+// 	int i = 0;
+// 	int *tab; 
+// 	tab = ft_range(min, max);
+// 	while (i < size)
+// 	{
+// 		printf("%d ", tab[i]);
+// 		i++;
+// 	}
+// }

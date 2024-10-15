@@ -1,0 +1,25 @@
+• isalpha    ok  libft ok
+• isdigit    ok  libft ok
+• isalnum    ok  libft ok
+• isascii    ok  libft ok
+• isprint    ok  libft ok
+• strlen     ok  libft ok
+• memset     ok  libft ok
+• bzero      ok  libft ok
+• memcpy     ok  libft ok
+• memmove    ok  libft ok
+• strlcpy    ok  libft ok
+• strlcat    en cours libft ok
+• toupper    ok  libft ok
+• tolower    ok  libft ok
+• strchr     ok  libft ok
+• strrchr    ok  libft ok
+• strncmp    en cours libft ok
+• memchr     ok  libft ok
+• memcmp     ok  libft ok
+• strnstr    en cours libft ok
+• atoi       ok  libft ok
+
+Pour les deux fonctions suivantes, vous pourrez faire appel à la fonction malloc() :
+• calloc
+• strdup
